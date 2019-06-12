@@ -1,0 +1,23 @@
+.portfolioBox {
+    position: relative;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.projBanner {
+    position:absolute;
+    bottom: 25px;
+    left: 100px;
+    background-color: #546e7a;
+    width: 250px;
+    /* padding: 0px 0px 4px 0px; */
+    /* margin-left: 4px; */
+    /* overflow: hidden; */
+    
+
+}
+
+img {
+    border: solid 1px grey;
+}

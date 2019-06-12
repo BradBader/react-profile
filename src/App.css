@@ -1,0 +1,151 @@
+* {
+  font-family: 'PT Serif', serif;
+}
+
+.wrapper{
+  display:grid;
+  /* grid-template-columns: 1fr; */
+  /* grid-template-rows: 1fr 1fr; */
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+
+.wrapper > div{
+  background:#eee;
+  padding:1em;
+
+}
+.wrapper > div:nth-child(odd){
+  background:#ddd;
+}
+
+
+.box1 {
+  border: solid 1px grey;
+  display: grid;
+}
+
+.box2 {
+  grid-column: 1/4;
+  grid-row: 2/4;
+  /* margin-top: 10em; */
+}
+
+.test {
+    height: 115px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation: panning 100s infinite ease-in-out;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/sideCoversCrop.jpg")
+
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+a {
+  color:white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background:rgba(0,0,0,0.2);
+  padding:10px 0px 10px 0px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition:all 0.5s;
+}
+
+/* a:hover {
+  background:rgba(0,0,0,0.3);
+} */
+
+.wrapper {
+  /* max-width: 300px; */
+  margin: 0 auto;
+  padding:50px;
+}
+
+
+ul {
+  border: 1px solid black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+}
+
+#aboutMe {
+  margin: 0px 0px 5px 0px;
+  border-bottom: 1px solid grey;
+  text-shadow: none;
+  color: teal;
+}
+
+ li {
+  flex:3;
+  text-shadow: 1px 1px #000000;
+}
+
+@media all and (max-width:1000px) {
+  
+  ul {
+    flex-wrap:wrap;
+  }
+  li {
+    flex:1 1 50%;
+  }
+}
+
+@media all and (max-width:600px) {
+  li {
+    flex-basis:100%;
+  }
+
+  #llame {
+    float: none;
+  }
+  #profileImg {
+    float: none;
+    display: block;
+    /* margin-left: 35.1px;
+    margin-right: 35.1px; */
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+  }
+  .box1 {
+    align-content: center;
+    align-items: center;
+  }
+  
+}
+
+#profileImg {
+  float: left;
+  margin: 0px 1em 0px 0px;
+  border: 1px solid grey;
+  align-self: center;
+  justify-self: center;
+}
+
+p {
+    font-size: 25.2px;
+    text-indent: 20px;
+    align-content: center;
+}
+
+
+img:hover {
+  background:rgba(0,0,0,0.3);
+}
+  

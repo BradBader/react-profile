@@ -1,0 +1,15 @@
+.projectGrid {
+    display:grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    /* padding: 1em; */
+    grid-gap: 1em;
+    grid-template-rows: repeat(1, 300px);
+}
+
+.projectGrid a {
+    max-width: 250px;
+    background:grey;
+}
+

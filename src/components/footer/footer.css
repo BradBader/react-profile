@@ -1,0 +1,20 @@
+.footer {
+    display:grid;
+    background-color: black;
+    min-height: 72px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.fbox0 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+#fin {
+    color: white;
+    float: right;
+    padding-right: 1em;
+}
