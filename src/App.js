@@ -16,7 +16,7 @@ function App() {
         <div className="wrapper">
           <div className="box1">
             <Switch>
-              <Route path="/react-profile/taco" component={Portfolio} />
+              <Route path="/taco" component={Portfolio} />
               <Route exact path="/react-profile/" component={AboutMe} />
 
               {/* <Route exact path="/contact" component={Contact} /> */}
