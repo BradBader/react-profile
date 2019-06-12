@@ -11,8 +11,8 @@ class Header extends Component {
 
                         
                             <ul>
-                                <li><a href="/react-profile/#/portfolio">Projects</a></li>
-                                <li><a href="/react-profile/">About</a></li>
+                                <li><a href="/portfolio">Projects</a></li>
+                                <li><a href="/">About</a></li>
                                 {/* <li><a href="/contact">Contact</a></li> */}
                           
                             </ul>
