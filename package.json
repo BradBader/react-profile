@@ -2,7 +2,7 @@
   "name": "profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bradbader.github.io/profileRevampWIP",
+  "homepage": "https://bradbaderesq.herokuapp.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

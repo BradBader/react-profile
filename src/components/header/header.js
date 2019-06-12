@@ -8,8 +8,6 @@ class Header extends Component {
                 <div className="hbox0">
                     <h2 id="llame">Brad Bader, Esq.</h2>
                     <div class="headerWrapper">
-
-                        
                             <ul>
                                 <li><a href="/portfolio">Projects</a></li>
                                 <li><a href="/">About</a></li>
