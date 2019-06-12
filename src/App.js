@@ -16,8 +16,8 @@ function App() {
         <div className="wrapper">
           <div className="box1">
             <Switch>
-            <Route exact path="/portfolio" component={Portfolio} />
-              <Route exact path="/" component={AboutMe} />
+            <Route exact path="/react-profile/portfolio" component={Portfolio} />
+              <Route exact path="/react-profile/" component={AboutMe} />
               
               {/* <Route exact path="/contact" component={Contact} /> */}
             </Switch>
