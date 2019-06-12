@@ -9,7 +9,7 @@ import Contact from "./components/contact/contact"
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Header />
         {/* <Header2 /> */}
@@ -20,7 +20,6 @@ function App() {
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/react-profile/portfolio" component={Portfolio} />
               <Route exact path="/react-profile/" component={AboutMe} />
-
               {/* <Route exact path="/contact" component={Contact} /> */}
             </Switch>
 
